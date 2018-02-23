@@ -5,25 +5,25 @@
 <body>
         <h1>Hello World!!!</h1>
         <p>
-                Current Date/Time: --->
+                Current Date/Time: 
                 <b><%= new java.util.Date() %></b></p>
         <p>
-                You are coming from: --->
+                You are coming from: 
                 <b><%= request.getRemoteAddr() %></b></p>
         <p>
-                Servervlet`s Server/Ver.: --->
+                Servervlet`s Server/Ver.: 
                 <b><%=request.getServletContext().getServerInfo() %></b></p>
         <p>
-                Java Ver.: --->
+                Java Ver.: 
                 <b><%= System.getProperty("java.version") %></b></p>
         <p>
-                Java Vendor: --->
+                Java Vendor: 
                 <b><%= System.getProperty("java.vendor") %></b></p>
         <p>
-                OS Core Ver: --->
+                OS Core Ver: 
                 <b><%= System.getProperty("os.version") %></b></p>
         <p>
-                App Server HostName: --->
+                App Server HostName: 
                 <b><%= java.net.InetAddress.getLocalHost().getHostName() %></b></p>
                 <%@ page import="java.util.*"%>
 
@@ -37,9 +37,9 @@
 
         %>
         <p>
-                App name: --->
+                App name: 
                 <b><%= name %></b></p>
         <p>
-                App version: --->
+                App version: 
                 <b><%= version %></b></p>
 </body>
