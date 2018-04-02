@@ -11,7 +11,7 @@
 		<repository>
 			<id>hw.releases</id>
 			<name>first-release-hw</name>
-			<url>http://10.0.15.14:8081/artifactory/libs-release-local</url>
+			<url>http://10.0.15.14:8082/artifactory/mvn</url>
 		</repository>
 	</distributionManagement>
 
